@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tourme</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="" href="homepage.html">Home</a>
+      <a class="create-tournament-link" href="#">Create Tournament</a>
+      <button type="button" onclick="logOut()">Log Out</button>
+    </div>
+    <div id="createTournamentForm" class="popup" display="none">
+      <div class="popup-content">
+        <h2>Create a New Tournament</h2>
+        <form id="createTourneyForm">
+          <label for="nameTourney">Tournament Name:</label>
+          <input type="text" id="nameTourney" required />
+          <label for="description">Tournament Description:</label>
+          <input type="text" id="descTourney" required />
+          <button type="button" id="createTournamentButton" onclick="createTournament()">
+            Create Tournament
+          </button>
+        </form>
+      </div>
+    </div>
+    <body>
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </body>
+    <div class="tourney" id="tournaments-list"></div>
+    <div class="contestant" id="contestants-list"></div>
+    <div class="button" id="join"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.3.1/firebase-app-compat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.3.1/firebase-auth-compat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.3.1/firebase-database-compat.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
