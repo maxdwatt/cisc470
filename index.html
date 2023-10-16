@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tourme</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="registration">
+      <div class="login">
+        <a href="#Username">New Username:</a>
+        <input
+          type="text"
+          id="newUser"
+          placeholder="Enter your username"
+          required
+        />
+      </div>
+      <div class="login">
+        <a class="" href="#Password">New Password:</a>
+        <input
+          type="text"
+          id="newPass"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+      <div class="login">
+        <button type="button" onclick="createNewUser()">Register</button>
+      </div>
+    </div>
+  </body>
+  <body>
+    <div class="login">
+      <a href="#ForgottenUser">Username:</a>
+      <input
+        type="text"
+        id="ForgotUser"
+        placeholder="Enter your email"
+        required
+      />
+    </div>
+    <div class="login">
+      <button type="button" onclick="resetPass()">Forgot my Password</button>
+    </div>
+  </body>
+  <body>
+    <div class="login">
+      <div class="login">
+        <a href="#Username">Username:</a>
+        <input
+          type="text"
+          id="loginUser"
+          placeholder="Enter your username"
+          required
+        />
+      </div>
+
+      <div class="login">
+        <a class="" href="#Password">Password:</a>
+        <input
+          type="password"
+          id="loginPass"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <div class="login">
+        <button type="button" onclick="login()">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.3.1/firebase-app-compat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.3.1/firebase-auth-compat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.3.1/firebase-database-compat.js"></script>
+<script src="./script.js"></script>

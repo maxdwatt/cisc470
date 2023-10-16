@@ -1,0 +1,46 @@
+body {
+  background-color: #ffd6e9;
+}
+
+.login {
+  background-color: #c79274;
+  overflow: hidden;
+}
+
+.login a {
+  float: left;
+  color: #ffd6e9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav {
+  background-color: #c79274;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffd6e9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: 	#ffbcda;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: 	#946656;
+  color: white;
+}
+
+.tourney {
+  background-color:  #c79274;
+  overflow: hidden;
+}
